@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airport Passenger Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Airport Passenger Dashboard</h1>
+    <p>Flight status search and passenger information display</p>
+  </header>
+
+  <main>
+    <section class="search-box">
+      <h2>Search Flights</h2>
+      <input type="text" id="searchInput" placeholder="Search by flight, airline, gate, or status">
+    </section>
+
+    <section class="dashboard">
+      <table>
+        <thead>
+          <tr>
+            <th>Flight</th>
+            <th>Airline</th>
+            <th>Gate</th>
+            <th>Destination</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="flightTable">
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Rolando Gonzalez | HTML, CSS, JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

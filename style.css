@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef3f8;
+  color: #222;
+}
+
+header {
+  background: #003b73;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.search-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.dashboard {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #003b73;
+  color: white;
+  padding: 14px;
+}
+
+td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.status-boarding {
+  color: green;
+  font-weight: bold;
+}
+
+.status-delayed {
+  color: red;
+  font-weight: bold;
+}
+
+.status-ontime {
+  color: #003b73;
+  font-weight: bold;
+}
+
+.status-arrived {
+  color: purple;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #003b73;
+  color: white;
+  margin-top: 40px;
+}
